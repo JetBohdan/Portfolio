@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Evargus</title>
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+        <div class="header__inner">
+            <div class="container">
+                <div class="header__list">
+                    <div class="header__list-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <p class="header__p">+375 29 292-29-29 (VEL)</p>
+                        <p class="header__p">+375 33 333-33-33 (МТС)</p>
+                    </div>
+                    <div class="header__list-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <a class="header__a" href="#" target="_blank" rel="noopener noreferrer">ваш город</a>
+                    </div>
+                    <div class="header__list-item">
+                        <i class="fa-brands fa-instagram"></i>
+                        <a class="header__a" href="#" target="_blank" rel="noopener noreferrer">посетите нашу страницу</a>
+                    </d>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main  -->
+    <section class="main">
+        <div class="main__inner">
+            <div class="container">
+                <div class="main__box">
+                    <div class="main__logo">
+
+                        <div class="main__logo-box">
+                            <img src="img/Vector.svg" alt="logo" class="main__logo-img">
+                            <h1 class="main__logo-h1">EVARGUS</h1>
+                        </div>
+
+                        <div class="main__logo-text">
+                            <a href="#review" class="main__logo-a">отзывы</a>
+                            <a href="#info" class="main__logo-a">что это?</a>
+                            <a href="#contact" class="main__logo-a">контакты</a>
+                        </div>
+
+                    </div>
+                    <div class="main__content">
+                        <div name="info" class="main__content-text">
+                            <h1 class="main__content-h1">Инновационные коврики <br> для автомобиля</h1>
+                            <p class="main__content-p">в вашем городе</p>
+                            <button class="main__content-btn" onclick="myAlert()">ЗАКАЗАТЬ</button>
+                        </div>
+                        <img src="img/cover.png" alt="" class="main__content-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="alert">
+        <div class="alert__h1">ФОРМА ЗАЯВКИ</div>
+        <input type="text" class="alert__input" id="mailSecond" placeholder="Ваше имя">
+        <input type="email" class="alert__input" id="email" placeholder="Ваш e-mail">
+        <textarea class="alert__textarea" name="" id="" cols="57" rows="5" placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)"></textarea>
+        <div class="alert__button-box">
+            <button class="alert__btn">отправить</button>
+            <button class="alert__btn alert__btn-cls" onclick="myClose()">закрыть</button>
+        </div>
+    </div>
+
+    <!-- info -->
+    <section class="info">
+        <a name="info"></a>
+        <div class="info__inner">
+            <div class="container">
+                <div class="info__box">
+                    <h1 class="info__h1">Что такое <p class="info__h1-p">&nbsp; EVA &nbsp;</p> коврики?</h1>
+                    <div class="info__cards">
+                        <div class="info__item info__item-1">
+                            <div class="bw" style="background-color: #fff;"><img src="img/reshotka.jpg" alt="" class="info__img">
+                                <h2 class="info__h2">МАТЕРИАЛ</h2>
+                                <p class="info__p">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="info__item">
+                            <img src="img/plastina.jpg" alt="" class="info__img">
+                            <h2 class="info__h2">ОТЛИЧИЯ</h2>
+                            <p class="info__p">Резиновые коврики загибаются и лезут на педали. EVA коврики такого не допустят! Специальные липучки держат его в одном положении. При желании, для водителя устанавливается подпятник из рельефного алюминия.</p>
+                        </div>
+                        <div class="info__item">
+                            <img src="img/kover.jpg" alt="" class="info__img">
+                            <h2 class="info__h2">РАСЦВЕТКА</h2>
+                            <p class="info__p">Автомобильные коврики EVA можно заказать и в индивидуальных размерах и в разных цветах, которые комбинируется на выбор покупателя с такими же цветами окантовочной полипропиленовой ременной ленты.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    
+
+    <!-- review -->
+    <section class="review">
+        <a name="review" id="review-link"></a>
+        <div class="review__inner">
+            <div class="container">
+                
+                <div class="review__box">
+                    
+                    <div class="review__box-item">
+                        <img class="review__item-img" src="img/Mask2.png" alt="">
+                        <p class="review__p">Покупала у ребят коврики для Хундай солярис <br> в подарок молодому человеку. Все очень <br> понравилось. Буду советовать только вас.</p>
+                        <img src="img/Line.svg" alt="">
+                        <p class="review__p1">Вера К.</p>
+                    </div>
+
+                    <div class="review__box-item">
+                        <img class="review__item-img" src="img/Mask1.png" alt="">
+                        <p class="review__p">Спасибо, все приехало, поставил. <br> Результатом доволен, в машине супер! <br> Заказывал на Ниссан.</p>
+                        <img src="img/Line.svg" alt="">
+                        <p class="review__p1">Максим Р.</p>
+                    </div>
+
+                    <div class="review__box-item">
+                        <img class="review__item-img" src="img/Mask2.png" alt="">
+                        <p class="review__p">Коврики супер!!! Качество на высшем уровне!!! <br> Удачи и побольше заказов вам!!! Большое спасибо!</p>
+                        <img src="img/Line.svg" alt="">
+                        <p class="review__p1">Вера К.</p>
+                    </div>
+
+                    <div class="review__box-item">
+                        <img class="review__item-img" src="img/Mask3.png" alt="">
+                        <p class="review__p">Коврики супер!!! Качество на высшем уровне!!! <br> Удачи и побольше заказов вам!!! Большое спасибо!</p>
+                        <img src="img/Line.svg" alt="">
+                        <p class="review__p1">Николай П.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <a name="contact"></a>
+        <div class="footer__inner">
+            <div class="container footer__container">
+                <div class="footer__box">
+                    <h5 class="footer__box-p">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</h5>
+                    <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="img/inst.svg" alt="inst" class="footer__box-img">
+                    </a>
+                </div>
+                <div class="footer__box">
+                    <h5 class="footer__box-p">КОНТАКТНЫЕ ТЕЛЕФОНЫ</h5>
+                    <p class="footer__box-p">+375 29 292-29-29 (VEL)</p>
+                    <p class="footer__box-p">+375 33 333-33-33 (МТС)</p>
+                </div>
+                <div class="footer__box">
+                    <h5 class="footer__box-p">О НАС</h5>
+                    <p class="footer__box-p">Индивидуальное изготовление <br> EVA ковриков для вашего <br> автомобиля</p>
+                    <p class="footer__box-p">ваш город</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/jq.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="https://kit.fontawesome.com/0f2242513d.js" crossorigin="anonymous"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
